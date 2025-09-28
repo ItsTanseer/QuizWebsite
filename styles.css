@@ -1,10 +1,12 @@
 .titleText {
     display: flex;
-    flex-wrap: wrap;
+    
     flex-direction: row;
     align-items: center;
     justify-content: center;
     vertical-align: middle;
+    min-width: fit-content;
+    margin: auto;
     
 }
 h1 {
@@ -14,8 +16,9 @@ h1 {
     border-radius: 10px;
     border-width: 1px;
     border-style: inset;
-    margin: 10px;
+    
     width: 100px;
+    margin: 10px;
     height:100%;
    vertical-align: middle;
    background-image: linear-gradient(#599ad6,#53ca96,#43cde5);
@@ -23,6 +26,13 @@ h1 {
    transition: 0.2s;
 
 
+}
+@media (max-width:800px) {
+    h1 {
+        width: 50px;
+        height: 100%;
+        
+    }
 }
 h1:hover {
     transform:translateY(-5px);

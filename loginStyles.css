@@ -1,0 +1,80 @@
+.container {
+    width: 400px;
+    min-width: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background:  rgba(194, 70, 219, 0.05);
+    box-shadow: 1px 1px 2px 1px rgba(29, 133, 238, 0.267);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    vertical-align:middle;
+    
+}
+.form form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vh;
+    margin:5%;
+
+}
+form input {
+    margin: 10px;
+}
+body {
+    background-image: linear-gradient(to right, #f3e97e, #e5d0a3, #e58d8d);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+.container p {
+    font-size: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+.container .form p {
+    font-size: 1rem;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(75, 41, 0);
+}
+.textboxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.btn {
+    background-color: rgba(232, 198, 129, 0.612);
+    color: rgb(9, 0, 0);
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px auto;
+    transition: all 0.3s ease-in;
+    border-width: 0;
+    border-radius: 4px;
+}
+.btn:hover {
+    background-color:rgb(41, 226, 41) ;
+    transform: scale(120%);
+    color: white;
+    
+}
+#errorMsg {
+    display: flex;
+    color: rgb(255, 39, 39);
+    font-size: small;
+    
+    text-align: center;
+
+    
+}
